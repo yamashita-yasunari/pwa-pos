@@ -5,7 +5,7 @@
   <script>
   // serviceWorkerが有効なら、Service-worker.jsを登録します。
   if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('.service_worker.js').then(
+    navigator.serviceWorker.register('./service_worker.js').then(
       function(){
         console.log('serviceWorker registered');
       }
@@ -17,6 +17,6 @@
 <body>
     <h1>Hello PWA</h1>
     <img src = "image/pwa-logo.svg" alt="PWA logo" class="image"/>
-    <a href="p.html">p.html</a> 
+    <a href="p.html">p.html</a>
 </body>
 </html>
